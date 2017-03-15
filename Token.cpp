@@ -2,6 +2,7 @@
 #include<cstdlib>
 #include<string>
 /*dealing with the token, deciding wether it is a number or operator */
+/* only * / + - supported */
 Token::Token(string input)
 {
     if(input[0]=='*')
