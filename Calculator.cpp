@@ -6,6 +6,7 @@ Calculator::Calculator(const vector<string> & inputEx)
 {
 	expression=inputEx;
 }
+/*Given a token of operator, process the top 2 values in the valueStack */
 void Calculator::process (Token token)
 {
 	double topValue=valueStack.top();
