@@ -1,5 +1,6 @@
 #include "Token.h"
 #include<cstdlib>
+#include<string>
 Token::Token(string input)
 {
     if(input[0]=='*')
